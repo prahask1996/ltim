@@ -1,0 +1,972 @@
+Machine Info Report
+-------------------
+
+Generated at:        2022-11-10 05:35:29,387 (UTC)
+OS Version:          Windows 6.2
+Firmware reported as:ASUSTeK COMPUTER INC., P2451FB.311 (11/25/2021)
+System State:        Active
+Encryption Provider: 70e77e64-14e4-467d-8d22-775dc78d7c3b
+Policy Ident:        L&T Active with Encryption
+Theme Location:      C:\Program Files\McAfee\Endpoint Encryption\Theme
+
+System Info Parameters
+----------------------
+
+          ProcessorSupportsAes: True
+          AutobootTPMSupported: 1
+              AutobootTPMState: 1
+                 AOACSupported: 2
+                     AOACState: 1
+                       TPMSpec: 2.0
+                  SGXSupported: 2
+                      SGXState: 1
+                     Algorithm: AES-256-CBC
+                    PbfsSizeMB: 50
+            PbfsFreeSpaceBytes: 41542656
+                      Autoboot: 1
+       LastLoggedOnPrebootUser: Not available (autoboot is enabled ; user authentication is skipped at preboot)
+
+Disk Information
+----------------
+
+Disk 0:
+	State:          EncryptionInProgress
+	UUID:           CAEFA6D4-2485-564F-81A9-1BE99AEAF3F6
+	Type:           SATA
+	Serial Number:              WN921ZMX
+	Model Number:   ST1000LM049-2GH172
+	Port:           0
+	Size (bytes):   1000204886016
+
+	Volume:
+		UUID:         3ef87541-8fe5-4da3-934c-8ae84880a3af
+		Name:         C:
+		Size (bytes): 214616225792
+		State:        EncryptionInProgress
+
+	Volume:
+		UUID:         07b99e83-185b-4cf3-b762-666574196966
+		Name:         D:
+		Size (bytes): 784825581568
+		State:        Decrypted
+
+Product Policy Summary:
+-----------------------
+
+Policy Name:      L&T Active with Encryption
+Policy Ident:     L&T Active with Encryption
+Policy Timestamp: 13312530704780
+
+User Policy Summary:
+--------------------
+
+            10634216: My Default (2174)
+            10696093: My Default (2174)
+            10716678: My Default (2174)
+            10662200: My Default (2174)
+
+Assigned Users:
+---------------
+	UUID:                    5BC9594254D43A4A838FD6B4819C5408
+	Name:                    10634216
+	UserNameTime:            1650652222287
+	Certificate Timestamp:   0
+	Token UUID:              10446506-d610-426e-868b-798053e2c954
+	Token Timestamp:         13312530956593
+	Logon Data Timestamp:    13312530956593
+	Self-Recovery State:     Uninitialized
+	Self-Recovery Timestamp: 13312530956593
+	SSO Timestamp:           16345814286293
+
+	UUID:                    6DCECBBDAC1D0E44AB9D26E877FA5016
+	Name:                    10696093
+	UserNameTime:            1650652222287
+	Certificate Timestamp:   0
+	Token UUID:              99ee83a5-fe08-4b99-a627-99db1eb7081e
+	Token Timestamp:         13284023785000
+	Logon Data Timestamp:    13287478954000
+	Self-Recovery State:     Uninitialized
+	Self-Recovery Timestamp: 13117111467185
+	SSO Timestamp:           13284023826033
+
+	UUID:                    B04A61CBFF93D24B9FDE004318FDB150
+	Name:                    10716678
+	UserNameTime:            1668055512585
+	Certificate Timestamp:   0
+	Token UUID:              10446506-d610-426e-868b-798053e2c954
+	Token Timestamp:         13312530953450
+	Logon Data Timestamp:    13312530953450
+	Self-Recovery State:     Uninitialized
+	Self-Recovery Timestamp: 13312530953455
+	SSO Timestamp:           0
+
+	UUID:                    BC523E1B84F08B4EA5F1161489F22E66
+	Name:                    10662200
+	UserNameTime:            1650652222272
+	Certificate Timestamp:   0
+	Token UUID:              99ee83a5-fe08-4b99-a627-99db1eb7081e
+	Token Timestamp:         13293286118000
+	Logon Data Timestamp:    13302684833000
+	Self-Recovery State:     Uninitialized
+	Self-Recovery Timestamp: 13233151698111
+	SSO Timestamp:           13293286591607
+
+
+Policy:
+-------
+Ident:     L&T Active with Encryption
+Name:      L&T Active with Encryption
+Timestamp: 13312530704780
+
+Section\BootOptions:
+	                     AlwaysEnablePrebootUsbSupport: true
+	                       BootManagerTimeOutInSeconds: 30
+	                                    BootPartition1: 1
+	                                    BootPartition2: 2
+	                                    BootPartition3: 3
+	                                    BootPartition4: 4
+	                                 EnableBootManager: false
+	                        EnablePrebootPcmciaSupport: false
+	                                      GraphicsMode: 0
+
+Section\CompanionDevices:
+	                                     EnableSupport: false
+
+Section\Encryption:
+	                                           Encrypt: All Disks
+	                        EncryptionProviderPriority: 70e77e64-14e4-467d-8d22-775dc78d7c3b,6477FB57-DCF1-418E-9948-9F32C57B0FA4
+	                                     PartitionsQty: 0
+
+Section\EncryptionProviders:
+	                                            UIData: 70e77e64-14e4-467d-8d22-775dc78d7c3b,6477FB57-DCF1-418E-9948-9F32C57B0FA4
+
+Section\EncryptionProviders:6477FB57-DCF1-418E-9948-9F32C57B0FA4:
+	                               RequireAllOpalDisks: true
+
+Section\EncryptionProviders:70e77e64-14e4-467d-8d22-775dc78d7c3b:
+	                              ActivateWithSafeFail: false
+	                              FixOSBootRecordSides: false
+	                    RestartRequiredAfterActivation: false
+	                                  UseCompatibleMbr: false
+	                   UseWindowsSystemDriveAsBootDisk: false
+
+Section\Fixed:6477FB57-DCF1-418E-9948-9F32C57B0FA4:
+	                                        PbfsSizeMB: 50
+
+Section\Fixed:70e77e64-14e4-467d-8d22-775dc78d7c3b:
+	                                         Algorithm: AES-256-CBC
+	                                        PbfsSizeMB: 50
+
+Section\Fixed:EndPointEncryption:
+	                         IfUserDisabledInDirectory: Disable
+	                                KeyServerAlgorithm: RSA-KEY-GENERATION
+	                                 KeyServerEncoding: ByteStream
+	                                KeyServerPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq+kAKWQadu6TxAeVzMw8pGTujoSAoVmIvsrt7wg1E1/88NTo99f/K1iz+BEn5WfUmXjDsigjp7akETd+763XqafHzqYLXRH7Fcjy3Nkyt0nRB4h3GpkHNsIAdbn8DeQuNIUn+dGMYWQZOlKq43abakeSDY/LR7Bojry/1zvlb+lYbN6lSGmNgtPTG2ZumrA5DoAGidTNnRt16TAg/BuAL2E0eu9oiDHK/4t8T1eoag//gFk4pyxlRbYiIshbwY7SN/pTR+DzjKbYHltgpjdCCC5XO2EVNZtpA5FOrNqsbwlPJZ9+e71msa1mIozhd4cHA0f1fGTUT5z4AZv/F7zd0QIDAQAB
+	                          KeyServerSupportKeyReuse: false
+
+Section\Fixed:NonCompatible:
+	                       NonCompatibleProductsEntry0: <PDProductList><products><name>BitLocker</name><osType>Windows</osType></products><products><name>Checkpoint Endpoint Security</name><osType>Windows</osType><rules><regEntries><type>Key</type><path>HKEY_LOCAL_MACHINE\SOFTWARE\CheckPoint\EndPoint Security\Full Disk Encryption</path><textValue></textValue><binaryValue></binaryValue><compare>EQ</compare></regEntries><fileEntries><path>[WinDriverDir]\ccore64.sys</path></fileEntries></rules></products><products><name>Dell DDPE</name><osType>Windows</osType><rules><fileEntries><path>[Program Files]\Dell\Dell Data Protection\Encryption\EMS\Device\CredantEMS64.exe</path></fileEntries></rules><rules><fileEntries><path>[Program Files x64]\Dell\Dell Data Protection\Encryption\EMS\Device\CredantEMS64.exe</path></fileEntries></rules></products><products><name>GuardianEdge</name><osType>Windows</osType><rules><fileEntries><path>[WinDriverDir]\ephdxlat.sys</path></fileEntries><fileEntries><path>[WinSysDir]\ephdaudit.dll</path></fileEntries></rules></products><products><name>HP OEM client</name><osType>Windows</osType><rules><fileEntries><path>[WinSysDir]\sbhpcm.dll</path></fileEntries></rules></products><products><name>HP ProtectTools</name><osType>Windows</osType><rules><fileEntries><path>[Program Files]\Hewlett-Packard\Drive Encryption</path></fileEntries></rules><rules><fileEntries><path>[Program Files x64]\Hewlett-Packard\Drive Encryption</path></fileEntries></rules></products><products><name>HP ProtectTools FVE</name><osType>Windows</osType><rules><regEntries><type>Key</type><path>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HpFkCryptService</path><textValue></textValue><compare>EQ</compare></regEntries><fileEntries><path>[WinDriverDir]\safeboot.sys</path></fileEntries></rules></products><products><name>McAfee Management of Native Encryption 5.0 or above</name><osType>Windows</osType><rules><regEntries><type>Value</type><path>HKEY_LOCAL_MACHINE\Software\McAfee\MNE_Common\Product Integration\MDE\CanActivate</path><textValue>0</textValue><compare>EQ</compare></regEntries></rules></products><products><name>PGP Whole Disk Encryption</name><osType>Windows</osType><rules><fileEntries><path>[WinDriverDir]\pgpwded.sys</path></fileEntries></rules></products><products><name>PGP Whole Disk Encryption for Mac</name><osType>MacOs</osType><rules><fileEntries><path>/Applications/PGP.app/Contents/MacOS/PGP</path></fileEntries></rules></products><products><name>PointSec6</name><osType>Windows</osType><rules><regEntries><type>Key</type><path>HKEY_LOCAL_MACHINE\SOFTWARE\PointSec Mobile Tech\Pointsec for PC</path><textValue></textValue><binaryValue></binaryValue><compare>EQ</compare></regEntries><fileEntries><path>[Program Files]\Pointsec</path></fileEntries></rules></products><products><name>SafeBoot</name><osType>Windows</osType><rules><regEntries><type>Key</type><path>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Servi
+	                       NonCompatibleProductsEntry1: ces\SafeBootConfigurationManager</path><textValue></textValue><compare>EQ</compare></regEntries><fileEntries><path>[WinDriverDir]\safeboot.sys</path></fileEntries></rules></products><products><name>Safegaurd for Mac</name><osType>MacOs</osType><rules><fileEntries><path>/Applications/sgui.app/Contents/MacOS/sgui</path></fileEntries></rules></products><products><name>SafeGuardEasy</name><osType>Windows</osType><rules><fileEntries><path>[WinDriverDir]\sgeflt.sys</path></fileEntries></rules></products><products><name>SafeGuardEasy550</name><osType>Windows</osType><rules><fileEntries><path>[WinDir]\SGBEKERNEL.BIN</path></fileEntries></rules></products><products><name>SafeNet ProtectDrive</name><osType>Windows</osType><rules><fileEntries><path>[WinDriverDir]\pded.sys</path></fileEntries><fileEntries><path>[WinDriverDir]\ted.sys</path></fileEntries><fileEntries><path>[Program Files]\SafeNet ProtectDrive</path></fileEntries></rules><rules><fileEntries><path>[WinDriverDir]\pded.sys</path></fileEntries><fileEntries><path>[WinDriverDir]\ted.sys</path></fileEntries><fileEntries><path>[Program Files x64]\SafeNet ProtectDrive</path></fileEntries></rules></products><products><name>Symantec Endpoint Encryption</name><osType>Windows</osType><rules><fileEntries><path>[WinDriverDir]\ephdxlat.sys</path></fileEntries><fileEntries><path>[Program Files]\Symantec\Symantec Endpoint Encryption Clients</path></fileEntries></rules><rules><fileEntries><path>[WinDriverDir]\ephdxlat.sys</path></fileEntries><fileEntries><path>[Program Files x64]\Symantec\Symantec Endpoint Encryption Clients</path></fileEntries></rules></products><products><name>Symantec Endpoint Encryption Version 11</name><osType>Windows</osType><rules><fileEntries><path>[WinDriverDir]\eedDiskEncryptionDriver.sys</path></fileEntries><fileEntries><path>[Program Files]\Symantec\Symantec Endpoint Encryption Clients</path></fileEntries></rules><rules><fileEntries><path>[WinDriverDir]\eedDiskEncryptionDriver.sys</path></fileEntries><fileEntries><path>[Program Files x64]\Symantec\Symantec Endpoint Encryption Clients</path></fileEntries></rules></products><products><name>TrueCrypt</name><osType>Windows</osType><rules><regEntries><type>Key</type><path>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\truecrypt</path><textValue></textValue><binaryValue></binaryValue><compare>EQ</compare></regEntries><fileEntries><path>[WinDriverDir]\truecrypt.sys</path></fileEntries></rules></products><products><name>Truecrypt for Mac</name><osType>MacOs</osType><rules><fileEntries><path>/Applications/TrueCrypt.app/Contents/MacOS/TrueCrypt</path></fileEntries></rules></products><products><name>Wave Trusted Drive Manager</name><osType>Windows</osType><rules><fileEntries><path>[Program Files]\Dell\Dell Data Protection\Access\Advanced\Wave\Trusted Drive Manager\TdmService.exe</path></fileEntries></rules><rules><fileEntries><path>[Program
+	                       NonCompatibleProductsEntry2:  Files x64]\Dell\Dell Data Protection\Access\Advanced\Wave\Trusted Drive Manager\TdmService.exe</path></fileEntries></rules></products><products><name>WinMagic SecureDoc</name><osType>Windows</osType><rules><fileEntries><path>[Program Files]\WinMagic</path></fileEntries></rules><rules><fileEntries><path>[Program Files x64]\WinMagic</path></fileEntries></rules></products></PDProductList>
+	                          NonCompatibleProductsQty: 3
+
+Section\General:
+	                        AllowMachineInfoCollection: true
+	                              ColdBootHardenAlways: false
+	                              ColdBootHardenLocked: false
+	                           ColdBootHardenLoggedOff: false
+	                             ColdBootHardenStandby: false
+	                                    CpLoggingLevel: true
+	                                  EnableEncryption: true
+	                          ExpireUninitializedUsers: false
+	                ExpireUninitializedUsersNumOfHours: 1
+	                                      LoggingLevel: 3
+	                                           SyncUTC: true
+	                          TemporaryAutobootEnabled: false
+	                              UseHealthCheckResult: false
+	                                         MachineID: 156114
+
+Section\LogOnEndPointEncryption:
+	                               AddLocalDomainUsers: false
+	                     AlwaysDisplayOnScreenKeyboard: false
+	                       AutomaticBootExpirationDate: 0
+	                             AutomaticBootTPMUsage: 0
+	                           AutomaticBootingEnabled: true
+	                            AutomaticBootingUseUTC: false
+	               DoNotDisplayPreviousUserNameAtLogOn: false
+	                               EnableAccessibility: false
+	                     EnableOnScreenKeyboardSupport: false
+	                              GetUsernameFromToken: false
+	                  HideUsernameDuringAuthentication: false
+	                             InactivityTimeoutMins: 0
+	                                      LogOnMessage: 
+	                       LogonManagedAutoBootEnabled: false
+	                 LogonManagedAutoBootLogonAttempts: 2
+	                           MatchUsernameUpToAtSign: false
+	                   OnlyAddLoggedOnLocalDomainUsers: false
+	                                    SyncExpiryDays: 0
+	                                            UseTPM: 0
+	                                 UsernameFieldName: SubjectDN
+
+Section\LogOnWindowsOptions:
+	                                    AllowSSOCancel: false
+	                                      CpHideShield: false
+	                                  DisableHibernate: false
+	                                    DisableSuspend: false
+	                             DomainPollingInterval: 120
+	                                         EnableSSO: true
+	                       LockWorkstationAfterMinutes: 10
+	                       LockWorkstationWhenInActive: false
+	                                 MustMatchUserName: true
+	                   PasswordSyncIgnorePasswordRules: true
+	                PeriodicallyCheckDomainCredentials: false
+	                    RequireEndPointEncryptionLogOn: false
+	                    RequireLogOnWhenTokenIsRemoved: false
+	  SynchronizeEndPointEncryptionPasswordWithWindows: true
+	                                 UsingSmartCardPin: false
+
+Section\OOB:
+	                                         EnableOOB: false
+
+Section\PasswordSync_7_2:
+	                                       AllowCancel: false
+	                             DomainPollingInterval: 120
+	                                           Enabled: true
+	                               IgnorePasswordRules: true
+	                                 MustMatchUserName: true
+	                PeriodicallyCheckDomainCredentials: false
+
+Section\Recovery:
+	                                   RecoveryEnabled: true
+	                                   RecoveryKeySize: 1
+	                                   RecoveryMessage: 
+	                                 ResetSelfRecovery: false
+
+Section\SingleSignOn_7_2:
+	                                       AllowCancel: false
+	                                           Enabled: true
+	                                 MustMatchUserName: true
+	                                 UsingSmartCardPin: false
+
+Section\Theme:
+	                                           ThemeId: E8B0A196-38E6-4C09-AE6E-45723454821D
+
+Section\ThirdPartyCP_7_2:
+	                                           Enabled: false
+
+Section\UIData:
+	                                   UIProviderOrder: 
+
+Section\meta:
+	                                     version.major: 7
+	                                     version.minor: 2
+	                                     version.patch: 10
+
+Section\ClientMigration:
+	                            ClientMigrationEnabled: 0
+	                 ClientMigrationMaxUserAssignments: 10
+
+Section\HWCompatibility:
+	                                      PrebootFlags: 0082
+	                                    PrebootFlagsEx: 02
+
+User-Based Policies (UBP):
+--------------------------
+
+Policy:
+-------
+Ident:     2174
+Name:      My Default
+Timestamp: 352220934
+
+Section\Authentication:
+	                             CertificateCheckDates: false
+	                               CertificateOptional: true
+	                               CertificateRulesQty: 0
+	                              CertificateUseLatest: false
+	                      EnableLogonHoursRestrictions: false
+	                                    LogonHoursDay0: 9
+	                                   LogonHoursFrom0: 0
+	                                     LogonHoursQty: 1
+	                                     LogonHoursTo0: 0
+	                                         TokenType: 99ee83a5-fe08-4b99-a627-99db1eb7081e
+
+Section\CompanionDevices:
+	                                    EnableRecovery: false
+	                                PasswordDefinition: 1
+
+Section\Password:
+	                                 AllowShowPassword: false
+	                                   DefaultPassword: f2TLSc4rnc8lbgsBIuof7oaHV2gNcQ1SLwlR/leX128=
+	                             DefaultPasswordDigest: /deUSPriyL5AKGzRe4CpoN2Au+smzMwmUi7X3vYF29Y=
+	                         DefaultPasswordIterations: 100000
+	                               DefaultPasswordSalt: aD2dpsynlvEysBMNGq0edQfa4LoQRtmMAc/Hno9p7aA=
+	                      DontPromptForDefaultPassword: false
+	                           InvalidPasswordAttempts: 10
+	                                InvalidatePassword: true
+	                                    MaxDisableTime: 3840
+	                                   PasswordHistory: true
+	                                PasswordHistoryLen: 10
+	                                    PasswordMaxLen: 20
+	                                    PasswordMinLen: 5
+	                                     PreventChange: false
+	                                     RequireChange: false
+	                                 RequireChangeDays: 30
+	                             RequireChangeWarnDays: 0
+	                                   TimeoutAttempts: 3
+
+Section\PasswordContentRules:
+	                            AllowShowPasswordRules: false
+	                            PasswordCantBeUserName: false
+	                                 PasswordMaxLength: 40
+	                                  PasswordMinAlpha: 0
+	                           PasswordMinAlphanumeric: 0
+	                                 PasswordMinLength: 3
+	                                PasswordMinNumeric: 0
+	                                PasswordMinSymbols: 0
+	                                PasswordNoAnagrams: false
+	                             PasswordNoPalindromes: false
+	                               PasswordNoSequences: false
+	                       PasswordNoSimpleWordGroupId: 0
+	                             PasswordNoSimpleWords: false
+	                          PasswordNoSimpleWordsQty: 0
+	                            PasswordWindowsContent: false
+
+Section\Recovery:
+	                               LogonsBeforeForcing: 0
+	                                     QuestionLang0: 0409
+	                                     QuestionLang1: 0409
+	                                    QuestionLang10: 0407
+	                                   QuestionLang100: 0416
+	                                   QuestionLang101: 0416
+	                                   QuestionLang102: 0416
+	                                   QuestionLang103: 0416
+	                                   QuestionLang104: 0416
+	                                   QuestionLang105: 0416
+	                                   QuestionLang106: 0416
+	                                   QuestionLang107: 0416
+	                                   QuestionLang108: 0416
+	                                   QuestionLang109: 0416
+	                                    QuestionLang11: 0407
+	                                   QuestionLang110: 0419
+	                                   QuestionLang111: 0419
+	                                   QuestionLang112: 0419
+	                                   QuestionLang113: 0419
+	                                   QuestionLang114: 0419
+	                                   QuestionLang115: 0419
+	                                   QuestionLang116: 0419
+	                                   QuestionLang117: 0419
+	                                   QuestionLang118: 0419
+	                                   QuestionLang119: 0419
+	                                    QuestionLang12: 0407
+	                                   QuestionLang120: 0804
+	                                   QuestionLang121: 0804
+	                                   QuestionLang122: 0804
+	                                   QuestionLang123: 0804
+	                                   QuestionLang124: 0804
+	                                   QuestionLang125: 0804
+	                                   QuestionLang126: 0804
+	                                   QuestionLang127: 0804
+	                                   QuestionLang128: 0804
+	                                   QuestionLang129: 0804
+	                                    QuestionLang13: 0407
+	                                   QuestionLang130: 0404
+	                                   QuestionLang131: 0404
+	                                   QuestionLang132: 0404
+	                                   QuestionLang133: 0404
+	                                   QuestionLang134: 0404
+	                                   QuestionLang135: 0404
+	                                   QuestionLang136: 0404
+	                                   QuestionLang137: 0404
+	                                   QuestionLang138: 0404
+	                                   QuestionLang139: 0404
+	                                    QuestionLang14: 0407
+	                                   QuestionLang140: 0414
+	                                   QuestionLang141: 0414
+	                                   QuestionLang142: 0414
+	                                   QuestionLang143: 0414
+	                                   QuestionLang144: 0414
+	                                   QuestionLang145: 0414
+	                                   QuestionLang146: 0414
+	                                   QuestionLang147: 0414
+	                                   QuestionLang148: 0414
+	                                   QuestionLang149: 0414
+	                                    QuestionLang15: 0407
+	                                   QuestionLang150: 0425
+	                                   QuestionLang151: 0425
+	                                   QuestionLang152: 0425
+	                                   QuestionLang153: 0425
+	                                   QuestionLang154: 0425
+	                                   QuestionLang155: 0425
+	                                   QuestionLang156: 0425
+	                                   QuestionLang157: 0425
+	                                   QuestionLang158: 0425
+	                                   QuestionLang159: 0425
+	                                    QuestionLang16: 0407
+	                                   QuestionLang160: 041E
+	                                   QuestionLang161: 041E
+	                                   QuestionLang162: 041E
+	                                   QuestionLang163: 041E
+	                                   QuestionLang164: 041E
+	                                   QuestionLang165: 041E
+	                                   QuestionLang166: 041E
+	                                   QuestionLang167: 041E
+	                                   QuestionLang168: 041E
+	                                   QuestionLang169: 041E
+	                                    QuestionLang17: 0407
+	                                   QuestionLang170: 0415
+	                                   QuestionLang171: 0415
+	                                   QuestionLang172: 0415
+	                                   QuestionLang173: 0415
+	                                   QuestionLang174: 0415
+	                                   QuestionLang175: 0415
+	                                   QuestionLang176: 0415
+	                                   QuestionLang177: 0415
+	                                   QuestionLang178: 0415
+	                                   QuestionLang179: 0415
+	                                    QuestionLang18: 0407
+	                                   QuestionLang180: 0406
+	                                   QuestionLang181: 0406
+	                                   QuestionLang182: 0406
+	                                   QuestionLang183: 0406
+	                                   QuestionLang184: 0406
+	                                   QuestionLang185: 0406
+	                                   QuestionLang186: 0406
+	                                   QuestionLang187: 0406
+	                                   QuestionLang188: 0406
+	                                   QuestionLang189: 0406
+	                                    QuestionLang19: 0407
+	                                   QuestionLang190: 041D
+	                                   QuestionLang191: 041D
+	                                   QuestionLang192: 041D
+	                                   QuestionLang193: 041D
+	                                   QuestionLang194: 041D
+	                                   QuestionLang195: 041D
+	                                   QuestionLang196: 041D
+	                                   QuestionLang197: 041D
+	                                   QuestionLang198: 041D
+	                                   QuestionLang199: 041D
+	                                     QuestionLang2: 0409
+	                                    QuestionLang20: 0408
+	                                   QuestionLang200: 040B
+	                                   QuestionLang201: 040B
+	                                   QuestionLang202: 040B
+	                                   QuestionLang203: 040B
+	                                   QuestionLang204: 040B
+	                                   QuestionLang205: 040B
+	                                   QuestionLang206: 040B
+	                                   QuestionLang207: 040B
+	                                   QuestionLang208: 040B
+	                                   QuestionLang209: 040B
+	                                    QuestionLang21: 0408
+	                                    QuestionLang22: 0408
+	                                    QuestionLang23: 0408
+	                                    QuestionLang24: 0408
+	                                    QuestionLang25: 0408
+	                                    QuestionLang26: 0408
+	                                    QuestionLang27: 0408
+	                                    QuestionLang28: 0408
+	                                    QuestionLang29: 0408
+	                                     QuestionLang3: 0409
+	                                    QuestionLang30: 0C0A
+	                                    QuestionLang31: 0C0A
+	                                    QuestionLang32: 0C0A
+	                                    QuestionLang33: 0C0A
+	                                    QuestionLang34: 0C0A
+	                                    QuestionLang35: 0C0A
+	                                    QuestionLang36: 0C0A
+	                                    QuestionLang37: 0C0A
+	                                    QuestionLang38: 0C0A
+	                                    QuestionLang39: 0C0A
+	                                     QuestionLang4: 0409
+	                                    QuestionLang40: 040C
+	                                    QuestionLang41: 040C
+	                                    QuestionLang42: 040C
+	                                    QuestionLang43: 040C
+	                                    QuestionLang44: 040C
+	                                    QuestionLang45: 040C
+	                                    QuestionLang46: 040C
+	                                    QuestionLang47: 040C
+	                                    QuestionLang48: 040C
+	                                    QuestionLang49: 040C
+	                                     QuestionLang5: 0409
+	                                    QuestionLang50: 0410
+	                                    QuestionLang51: 0410
+	                                    QuestionLang52: 0410
+	                                    QuestionLang53: 0410
+	                                    QuestionLang54: 0410
+	                                    QuestionLang55: 0410
+	                                    QuestionLang56: 0410
+	                                    QuestionLang57: 0410
+	                                    QuestionLang58: 0410
+	                                    QuestionLang59: 0410
+	                                     QuestionLang6: 0409
+	                                    QuestionLang60: 0411
+	                                    QuestionLang61: 0411
+	                                    QuestionLang62: 0411
+	                                    QuestionLang63: 0411
+	                                    QuestionLang64: 0411
+	                                    QuestionLang65: 0411
+	                                    QuestionLang66: 0411
+	                                    QuestionLang67: 0411
+	                                    QuestionLang68: 0411
+	                                    QuestionLang69: 0411
+	                                     QuestionLang7: 0409
+	                                    QuestionLang70: 0412
+	                                    QuestionLang71: 0412
+	                                    QuestionLang72: 0412
+	                                    QuestionLang73: 0412
+	                                    QuestionLang74: 0412
+	                                    QuestionLang75: 0412
+	                                    QuestionLang76: 0412
+	                                    QuestionLang77: 0412
+	                                    QuestionLang78: 0412
+	                                    QuestionLang79: 0412
+	                                     QuestionLang8: 0409
+	                                    QuestionLang80: 0413
+	                                    QuestionLang81: 0413
+	                                    QuestionLang82: 0413
+	                                    QuestionLang83: 0413
+	                                    QuestionLang84: 0413
+	                                    QuestionLang85: 0413
+	                                    QuestionLang86: 0413
+	                                    QuestionLang87: 0413
+	                                    QuestionLang88: 0413
+	                                    QuestionLang89: 0413
+	                                     QuestionLang9: 0409
+	                                    QuestionLang90: 0816
+	                                    QuestionLang91: 0816
+	                                    QuestionLang92: 0816
+	                                    QuestionLang93: 0816
+	                                    QuestionLang94: 0816
+	                                    QuestionLang95: 0816
+	                                    QuestionLang96: 0816
+	                                    QuestionLang97: 0816
+	                                    QuestionLang98: 0816
+	                                    QuestionLang99: 0816
+	                                QuestionMinAnsLen0: 3
+	                                QuestionMinAnsLen1: 2
+	                               QuestionMinAnsLen10: 3
+	                              QuestionMinAnsLen100: 3
+	                              QuestionMinAnsLen101: 2
+	                              QuestionMinAnsLen102: 2
+	                              QuestionMinAnsLen103: 8
+	                              QuestionMinAnsLen104: 8
+	                              QuestionMinAnsLen105: 2
+	                              QuestionMinAnsLen106: 2
+	                              QuestionMinAnsLen107: 2
+	                              QuestionMinAnsLen108: 2
+	                              QuestionMinAnsLen109: 2
+	                               QuestionMinAnsLen11: 2
+	                              QuestionMinAnsLen110: 3
+	                              QuestionMinAnsLen111: 2
+	                              QuestionMinAnsLen112: 2
+	                              QuestionMinAnsLen113: 8
+	                              QuestionMinAnsLen114: 8
+	                              QuestionMinAnsLen115: 2
+	                              QuestionMinAnsLen116: 2
+	                              QuestionMinAnsLen117: 2
+	                              QuestionMinAnsLen118: 2
+	                              QuestionMinAnsLen119: 2
+	                               QuestionMinAnsLen12: 2
+	                              QuestionMinAnsLen120: 3
+	                              QuestionMinAnsLen121: 2
+	                              QuestionMinAnsLen122: 2
+	                              QuestionMinAnsLen123: 8
+	                              QuestionMinAnsLen124: 8
+	                              QuestionMinAnsLen125: 2
+	                              QuestionMinAnsLen126: 2
+	                              QuestionMinAnsLen127: 2
+	                              QuestionMinAnsLen128: 2
+	                              QuestionMinAnsLen129: 2
+	                               QuestionMinAnsLen13: 8
+	                              QuestionMinAnsLen130: 3
+	                              QuestionMinAnsLen131: 2
+	                              QuestionMinAnsLen132: 2
+	                              QuestionMinAnsLen133: 8
+	                              QuestionMinAnsLen134: 8
+	                              QuestionMinAnsLen135: 2
+	                              QuestionMinAnsLen136: 2
+	                              QuestionMinAnsLen137: 2
+	                              QuestionMinAnsLen138: 2
+	                              QuestionMinAnsLen139: 2
+	                               QuestionMinAnsLen14: 8
+	                              QuestionMinAnsLen140: 3
+	                              QuestionMinAnsLen141: 2
+	                              QuestionMinAnsLen142: 2
+	                              QuestionMinAnsLen143: 8
+	                              QuestionMinAnsLen144: 8
+	                              QuestionMinAnsLen145: 2
+	                              QuestionMinAnsLen146: 2
+	                              QuestionMinAnsLen147: 2
+	                              QuestionMinAnsLen148: 2
+	                              QuestionMinAnsLen149: 2
+	                               QuestionMinAnsLen15: 2
+	                              QuestionMinAnsLen150: 3
+	                              QuestionMinAnsLen151: 2
+	                              QuestionMinAnsLen152: 2
+	                              QuestionMinAnsLen153: 8
+	                              QuestionMinAnsLen154: 8
+	                              QuestionMinAnsLen155: 2
+	                              QuestionMinAnsLen156: 2
+	                              QuestionMinAnsLen157: 2
+	                              QuestionMinAnsLen158: 2
+	                              QuestionMinAnsLen159: 2
+	                               QuestionMinAnsLen16: 2
+	                              QuestionMinAnsLen160: 3
+	                              QuestionMinAnsLen161: 2
+	                              QuestionMinAnsLen162: 2
+	                              QuestionMinAnsLen163: 8
+	                              QuestionMinAnsLen164: 8
+	                              QuestionMinAnsLen165: 2
+	                              QuestionMinAnsLen166: 2
+	                              QuestionMinAnsLen167: 2
+	                              QuestionMinAnsLen168: 2
+	                              QuestionMinAnsLen169: 2
+	                               QuestionMinAnsLen17: 2
+	                              QuestionMinAnsLen170: 3
+	                              QuestionMinAnsLen171: 2
+	                              QuestionMinAnsLen172: 2
+	                              QuestionMinAnsLen173: 8
+	                              QuestionMinAnsLen174: 8
+	                              QuestionMinAnsLen175: 2
+	                              QuestionMinAnsLen176: 2
+	                              QuestionMinAnsLen177: 2
+	                              QuestionMinAnsLen178: 2
+	                              QuestionMinAnsLen179: 2
+	                               QuestionMinAnsLen18: 2
+	                              QuestionMinAnsLen180: 3
+	                              QuestionMinAnsLen181: 2
+	                              QuestionMinAnsLen182: 2
+	                              QuestionMinAnsLen183: 8
+	                              QuestionMinAnsLen184: 8
+	                              QuestionMinAnsLen185: 2
+	                              QuestionMinAnsLen186: 2
+	                              QuestionMinAnsLen187: 2
+	                              QuestionMinAnsLen188: 2
+	                              QuestionMinAnsLen189: 2
+	                               QuestionMinAnsLen19: 2
+	                              QuestionMinAnsLen190: 3
+	                              QuestionMinAnsLen191: 2
+	                              QuestionMinAnsLen192: 2
+	                              QuestionMinAnsLen193: 8
+	                              QuestionMinAnsLen194: 8
+	                              QuestionMinAnsLen195: 2
+	                              QuestionMinAnsLen196: 2
+	                              QuestionMinAnsLen197: 2
+	                              QuestionMinAnsLen198: 2
+	                              QuestionMinAnsLen199: 2
+	                                QuestionMinAnsLen2: 2
+	                               QuestionMinAnsLen20: 3
+	                              QuestionMinAnsLen200: 3
+	                              QuestionMinAnsLen201: 2
+	                              QuestionMinAnsLen202: 2
+	                              QuestionMinAnsLen203: 8
+	                              QuestionMinAnsLen204: 8
+	                              QuestionMinAnsLen205: 2
+	                              QuestionMinAnsLen206: 2
+	                              QuestionMinAnsLen207: 2
+	                              QuestionMinAnsLen208: 2
+	                              QuestionMinAnsLen209: 2
+	                               QuestionMinAnsLen21: 2
+	                               QuestionMinAnsLen22: 2
+	                               QuestionMinAnsLen23: 8
+	                               QuestionMinAnsLen24: 8
+	                               QuestionMinAnsLen25: 2
+	                               QuestionMinAnsLen26: 2
+	                               QuestionMinAnsLen27: 2
+	                               QuestionMinAnsLen28: 2
+	                               QuestionMinAnsLen29: 2
+	                                QuestionMinAnsLen3: 8
+	                               QuestionMinAnsLen30: 3
+	                               QuestionMinAnsLen31: 2
+	                               QuestionMinAnsLen32: 2
+	                               QuestionMinAnsLen33: 8
+	                               QuestionMinAnsLen34: 8
+	                               QuestionMinAnsLen35: 2
+	                               QuestionMinAnsLen36: 2
+	                               QuestionMinAnsLen37: 2
+	                               QuestionMinAnsLen38: 2
+	                               QuestionMinAnsLen39: 2
+	                                QuestionMinAnsLen4: 8
+	                               QuestionMinAnsLen40: 3
+	                               QuestionMinAnsLen41: 2
+	                               QuestionMinAnsLen42: 2
+	                               QuestionMinAnsLen43: 8
+	                               QuestionMinAnsLen44: 8
+	                               QuestionMinAnsLen45: 2
+	                               QuestionMinAnsLen46: 2
+	                               QuestionMinAnsLen47: 2
+	                               QuestionMinAnsLen48: 2
+	                               QuestionMinAnsLen49: 2
+	                                QuestionMinAnsLen5: 2
+	                               QuestionMinAnsLen50: 3
+	                               QuestionMinAnsLen51: 2
+	                               QuestionMinAnsLen52: 2
+	                               QuestionMinAnsLen53: 8
+	                               QuestionMinAnsLen54: 8
+	                               QuestionMinAnsLen55: 2
+	                               QuestionMinAnsLen56: 2
+	                               QuestionMinAnsLen57: 2
+	                               QuestionMinAnsLen58: 2
+	                               QuestionMinAnsLen59: 2
+	                                QuestionMinAnsLen6: 2
+	                               QuestionMinAnsLen60: 3
+	                               QuestionMinAnsLen61: 2
+	                               QuestionMinAnsLen62: 2
+	                               QuestionMinAnsLen63: 8
+	                               QuestionMinAnsLen64: 8
+	                               QuestionMinAnsLen65: 2
+	                               QuestionMinAnsLen66: 2
+	                               QuestionMinAnsLen67: 2
+	                               QuestionMinAnsLen68: 2
+	                               QuestionMinAnsLen69: 2
+	                                QuestionMinAnsLen7: 2
+	                               QuestionMinAnsLen70: 3
+	                               QuestionMinAnsLen71: 2
+	                               QuestionMinAnsLen72: 2
+	                               QuestionMinAnsLen73: 8
+	                               QuestionMinAnsLen74: 8
+	                               QuestionMinAnsLen75: 2
+	                               QuestionMinAnsLen76: 2
+	                               QuestionMinAnsLen77: 2
+	                               QuestionMinAnsLen78: 2
+	                               QuestionMinAnsLen79: 2
+	                                QuestionMinAnsLen8: 2
+	                               QuestionMinAnsLen80: 3
+	                               QuestionMinAnsLen81: 2
+	                               QuestionMinAnsLen82: 2
+	                               QuestionMinAnsLen83: 8
+	                               QuestionMinAnsLen84: 8
+	                               QuestionMinAnsLen85: 2
+	                               QuestionMinAnsLen86: 2
+	                               QuestionMinAnsLen87: 2
+	                               QuestionMinAnsLen88: 2
+	                               QuestionMinAnsLen89: 2
+	                                QuestionMinAnsLen9: 2
+	                               QuestionMinAnsLen90: 3
+	                               QuestionMinAnsLen91: 2
+	                               QuestionMinAnsLen92: 2
+	                               QuestionMinAnsLen93: 8
+	                               QuestionMinAnsLen94: 8
+	                               QuestionMinAnsLen95: 2
+	                               QuestionMinAnsLen96: 2
+	                               QuestionMinAnsLen97: 2
+	                               QuestionMinAnsLen98: 2
+	                               QuestionMinAnsLen99: 2
+	                                     QuestionName0: What is your favorite color?
+	                                     QuestionName1: What is your pet's name?
+	                                    QuestionName10: Was ist Ihre Lieblingsfarbe?
+	                                   QuestionName100: Qual é a sua cor preferida?
+	                                   QuestionName101: Qual é o nome do seu animal de estimação?
+	                                   QuestionName102: Quem é o seu músico preferido?
+	                                   QuestionName103: Qual é uma data memorável?
+	                                   QuestionName104: Qual é a sua data de nascimento?
+	                                   QuestionName105: Qual é o seu lugar preferido?
+	                                   QuestionName106: Quem é o seu ator preferido?
+	                                   QuestionName107: Qual é o seu filme preferido?
+	                                   QuestionName108: Qual é a sua música preferida?
+	                                   QuestionName109: Qual é a sua comida preferida?
+	                                    QuestionName11: Wie lautet der Name Ihres Haustiers?
+	                                   QuestionName110: Какой ваш любимый цвет?
+	                                   QuestionName111: Как зовут вашего домашнего животного?
+	                                   QuestionName112: Кто ваш любимый музыкант?
+	                                   QuestionName113: Что такое памятная дата?
+	                                   QuestionName114: Когда у вас день рождения?
+	                                   QuestionName115: Как называется ваше любимое заведение?
+	                                   QuestionName116: Кто ваш любимый актер?
+	                                   QuestionName117: Как называется ваш любимый фильм?
+	                                   QuestionName118: Как называется ваша любимая песня?
+	                                   QuestionName119: Как называется ваше любимое блюдо?
+	                                    QuestionName12: Wer ist Ihr Lieblingsmusiker?
+	                                   QuestionName120: 您最喜欢什么颜色？
+	                                   QuestionName121: 您宠物的名字叫什么？
+	                                   QuestionName122: 您最喜欢哪位音乐家？
+	                                   QuestionName123: 您值得纪念的日期是哪一天？
+	                                   QuestionName124: 您的出生日期是哪一天？
+	                                   QuestionName125: 您最喜欢什么地方？
+	                                   QuestionName126: 您最喜欢哪位演员？
+	                                   QuestionName127: 您最喜欢哪部电影？
+	                                   QuestionName128: 您最喜欢哪首歌？
+	                                   QuestionName129: 您最喜欢什么食物？
+	                                    QuestionName13: Was ist für Sie ein denkwürdiger Tag?
+	                                   QuestionName130: 您最喜歡的顏色？
+	                                   QuestionName131: 您寵物的名字?
+	                                   QuestionName132: 您最喜歡的音樂家？
+	                                   QuestionName133: 您最值得紀念的日子?
+	                                   QuestionName134: 您生日是幾月幾號?
+	                                   QuestionName135: 您最喜歡的地方？
+	                                   QuestionName136: 您最喜歡的演員？
+	                                   QuestionName137: 您最喜歡的電影？
+	                                   QuestionName138: 您最喜歡的歌曲？
+	                                   QuestionName139: 您最喜歡的食物？
+	                                    QuestionName14: Wann ist Ihr Geburtstag?
+	                                   QuestionName140: Hvilken farge er favorittfargen din?
+	                                   QuestionName141: Hva heter kjæledyret ditt?
+	                                   QuestionName142: Hvem har du som favorittmusiker?
+	                                   QuestionName143: Hvilken dato minnes du gjerne?
+	                                   QuestionName144: Når har du fødselsdag?
+	                                   QuestionName145: Hvilket sted er favorittstedet ditt?
+	                                   QuestionName146: Hvem har du som favorittskuespiller?
+	                                   QuestionName147: Hvilken film er din favorittfilm?
+	                                   QuestionName148: Hvilken sang er din favorittsang?
+	                                   QuestionName149: Hva har du som favorittrett?
+	                                    QuestionName15: Wo ist Ihr Lieblingsort?
+	                                   QuestionName150: Mis on teie lemmikvärv?
+	                                   QuestionName151: Mis on teie lemmiklooma nimi?
+	                                   QuestionName152: Kes on teie lemmikmuusik?
+	                                   QuestionName153: Mis on meeldejääv kuupäev?
+	                                   QuestionName154: Mis on teie sünnikuupäev?
+	                                   QuestionName155: Mis on teie lemmikkoht?
+	                                   QuestionName156: Kes on teie lemmiknäitleja?
+	                                   QuestionName157: Mis on teie lemmikfilm?
+	                                   QuestionName158: Mis on teie lemmiklaul?
+	                                   QuestionName159: Mis on teie lemmiktoit?
+	                                    QuestionName16: Wer ist Ihr Lieblingsschauspieler?
+	                                   QuestionName160: คุณชอบสีอะไร
+	                                   QuestionName161: สัตว์เลี้ยงของคุณชื่ออะไร
+	                                   QuestionName162: ใครคือศิลปินคนโปรดของคุณ
+	                                   QuestionName163: วันแห่งความทรงจำของคุณคือวันอะไร
+	                                   QuestionName164: คุณเกิดวันไหน
+	                                   QuestionName165: สถานที่ที่คุณชอบคือที่ใด
+	                                   QuestionName166: ใครคือนักแสดงคนโปรดของคุณ
+	                                   QuestionName167: หนังเรื่องโปรดของคุณคืออะไร
+	                                   QuestionName168: เพลงโปรดของคุณคืออะไร
+	                                   QuestionName169: อาหารจานโปรดของคุณคืออะไร
+	                                    QuestionName17: Was ist Ihr Lieblingsfilm?
+	                                   QuestionName170: Jaki jest Twój ulubiony kolor?
+	                                   QuestionName171: Jak się wabi Twoje zwierzę?
+	                                   QuestionName172: Kto jest Twoim ulubionym wykonawcą muzycznym?
+	                                   QuestionName173: Jaka jest ważna data w Twoim życiu?
+	                                   QuestionName174: Kiedy się urodziłeś (-łaś)?
+	                                   QuestionName175: Jakie jest Twoje ulubione miejsce?
+	                                   QuestionName176: Kto jest Twoim ulubionym aktorem?
+	                                   QuestionName177: Jaki jest Twój ulubiony film?
+	                                   QuestionName178: Jaka jest Twoja ulubiona piosenka?
+	                                   QuestionName179: Co najbardziej lubisz jeść?
+	                                    QuestionName18: Was ist Ihr Lieblingslied?
+	                                   QuestionName180: Hvad er din yndlingsfarve?
+	                                   QuestionName181: Hvad hedder dit kæledyr?
+	                                   QuestionName182: Hvem er din yndlingsmusiker?
+	                                   QuestionName183: Hvilken dato husker du bedst?
+	                                   QuestionName184: Hvornår har du fødselsdag?
+	                                   QuestionName185: Hvad er dit yndlingssted?
+	                                   QuestionName186: Hvem er din yndlingsskuespiller?
+	                                   QuestionName187: Hvilken film er din yndlingsfilm?
+	                                   QuestionName188: Hvilken sang er din yndlingssang?
+	                                   QuestionName189: Hvad er din livret?
+	                                    QuestionName19: Was ist Ihr Lieblingsessen?
+	                                   QuestionName190: Vilken är din favoritfärg?
+	                                   QuestionName191: Vad heter ditt sällskapsdjur?
+	                                   QuestionName192: Vilken är din favoritartist?
+	                                   QuestionName193: Har du något datum du minns särskilt väl?
+	                                   QuestionName194: Vilket datum är du född på?
+	                                   QuestionName195: Vilken är din favoritplats?
+	                                   QuestionName196: Vilken är din favoritskåpdespelare?
+	                                   QuestionName197: Vilken är din favoritfilm?
+	                                   QuestionName198: Vilken är din favoritlåt?
+	                                   QuestionName199: Vilken är din favoritmaträtt?
+	                                     QuestionName2: Who is your favorite musician?
+	                                    QuestionName20: Ποιο είναι το αγαπημένο σας χρώμα;
+	                                   QuestionName200: Mikä on lempivärisi?
+	                                   QuestionName201: Mikä on lemmikkieläimesi nimi?
+	                                   QuestionName202: Kuka on suosikkimuusikkosi?
+	                                   QuestionName203: Mikä päivämäärä on unohtumaton?
+	                                   QuestionName204: Mikä on syntymäaikasi?
+	                                   QuestionName205: Mikä on lempipaikkasi?
+	                                   QuestionName206: Kuka on suosikkinäyttelijäsi?
+	                                   QuestionName207: Mikä on suosikkielokuvasi?
+	                                   QuestionName208: Mikä on lempikappaleesi?
+	                                   QuestionName209: Mikä on lempiruokaasi?
+	                                    QuestionName21: Ποιο είναι το όνομα του κατοικιδίου σας;
+	                                    QuestionName22: Ποιος είναι ο αγαπημένος σας μουσικός;
+	                                    QuestionName23: Ποια είναι η πιο σημαντική ημερομηνία για σας;
+	                                    QuestionName24: Ποια είναι η ημερομηνία γέννησής σας;
+	                                    QuestionName25: Ποιο είναι το αγαπημένο σας μέρος;
+	                                    QuestionName26: Ποιος είναι ο αγαπημένος σας ηθοποιός;
+	                                    QuestionName27: Ποια είναι η αγαπημένη σας ταινία;
+	                                    QuestionName28: Ποιο είναι το αγαπημένο σας τραγούδι;
+	                                    QuestionName29: Ποιο είναι το αγαπημένο σας φαγητό;
+	                                     QuestionName3: What is a memorable date?
+	                                    QuestionName30: ¿Cuál es su color favorito?
+	                                    QuestionName31: ¿Cómo se llama su animal de compañía?
+	                                    QuestionName32: ¿Cuál es su músico favorito?
+	                                    QuestionName33: ¿Qué fecha es memorable para usted?
+	                                    QuestionName34: ¿Cuándo es su cumpleaños?
+	                                    QuestionName35: ¿Cuál es su lugar favorito?
+	                                    QuestionName36: ¿Cuál es su actor favorito?
+	                                    QuestionName37: ¿Cuál es su película favorita?
+	                                    QuestionName38: ¿Cuál es su canción favorita?
+	                                    QuestionName39: ¿Cuál es su comida favorita?
+	                                     QuestionName4: What is your date of birth?
+	                                    QuestionName40: Quelle est votre couleur préférée ?
+	                                    QuestionName41: Quel est le nom de votre animal de compagnie ?
+	                                    QuestionName42: Quel(le) est votre musicien(ne) préféré(e) ?
+	                                    QuestionName43: Quelle date restera à jamais gravée dans votre mémoire ?
+	                                    QuestionName44: Quelle est votre date de naissance ?
+	                                    QuestionName45: Quel est votre lieu préféré ?
+	                                    QuestionName46: Quel(le) est votre acteur(trice) préféré(e) ?
+	                                    QuestionName47: Quel est votre film préféré ?
+	                                    QuestionName48: Quelle est votre chanson préférée ?
+	                                    QuestionName49: Quel est votre aliment préféré ?
+	                                     QuestionName5: What is your favorite place?
+	                                    QuestionName50: Qual è il mio colore preferito?
+	                                    QuestionName51: Qual è il nome del mio animale domestico?
+	                                    QuestionName52: Chi è il mio cantante preferito?
+	                                    QuestionName53: Qual è una data da ricordare?
+	                                    QuestionName54: Qual è la mia data di nascita?
+	                                    QuestionName55: Qual è il mio posto preferito?
+	                                    QuestionName56: Chi è il mio attore preferito?
+	                                    QuestionName57: Qual è il mio film preferito?
+	                                    QuestionName58: Qual è la mia canzone preferita?
+	                                    QuestionName59: Qual è il mio piatto preferito?
+	                                     QuestionName6: Who is your favorite actor?
+	                                    QuestionName60: 好きな色は何ですか？
+	                                    QuestionName61: ペットの名前は?
+	                                    QuestionName62: 好きな演奏家は誰ですか？
+	                                    QuestionName63: 特別な日は?
+	                                    QuestionName64: 生年月日は?
+	                                    QuestionName65: 好きな場所はどこですか？
+	                                    QuestionName66: 好きな俳優は誰ですか？
+	                                    QuestionName67: 好きな映画は何ですか？
+	                                    QuestionName68: 好きな音楽は何ですか？
+	                                    QuestionName69: 好きな食べ物は何ですか？
+	                                     QuestionName7: What is your favorite movie?
+	                                    QuestionName70: 좋아하는 색상은 무엇입니까?
+	                                    QuestionName71: 애완 동물의 이름은 무엇입니까?
+	                                    QuestionName72: 좋아하는 음악가는 누구입니까?
+	                                    QuestionName73: 기념일이 언제입니까?
+	                                    QuestionName74: 생일이 언제입니까?
+	                                    QuestionName75: 좋아하는 장소는 어디입니까?
+	                                    QuestionName76: 좋아하는 배우는 누구입니까?
+	                                    QuestionName77: 좋아하는 영화는 무엇입니까?
+	                                    QuestionName78: 좋아하는 노래는 무엇입니까?
+	                                    QuestionName79: 좋아하는 음식은 무엇입니까?
+	                                     QuestionName8: What is your favorite song?
+	                                    QuestionName80: Wat is uw favoriete kleur?
+	                                    QuestionName81: Hoe heet uw huisdier?
+	                                    QuestionName82: Wat is uw favoriete artiest?
+	                                    QuestionName83: Wat is een belangrijke datum voor u?
+	                                    QuestionName84: Wat is uw geboortedatum?
+	                                    QuestionName85: Wat is uw favoriete plaats?
+	                                    QuestionName86: Wat is uw favoriete acteur?
+	                                    QuestionName87: Wat is uw favoriete film?
+	                                    QuestionName88: Wat is uw favoriete nummer?
+	                                    QuestionName89: Wat is uw favoriete gerecht?
+	                                     QuestionName9: What is your favorite food?
+	                                    QuestionName90: Qual é a sua cor favorita?
+	                                    QuestionName91: Qual é o nome do seu animal de estimação?
+	                                    QuestionName92: Quem é o seu músico favorito?
+	                                    QuestionName93: Tem uma data memorável?
+	                                    QuestionName94: Qual é a sua data de nascimento?
+	                                    QuestionName95: Qual é o seu local favorito?
+	                                    QuestionName96: Quem é o seu actor favorito?
+	                                    QuestionName97: Qual é o seu filme favorito?
+	                                    QuestionName98: Qual é a sua canção favorita?
+	                                    QuestionName99: Qual é a sua comida favorita?
+	                                       QuestionQty: 210
+	                                 RequiredQuestions: 1
+	                                      SelfRecovery: false
+	                            SelfRecoveryInvalidate: true
+	               SelfRecoveryInvalidateNumOfAttempts: 3
+
