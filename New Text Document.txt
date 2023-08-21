@@ -1,0 +1,18 @@
+1. Experience with AWS Cloud environment and services.
+
+2. Hands on experience with Terraform scripts for AWS Provisioning.
+
+3. Hands on experience in creating AWS infra-automation and containerized application deployment pipelines 
+   (integrated with Docker, ECR, EKS) using anyone CI/CD orchestrator (Jenkins, Github Action, CircleCI).
+
+4. Experience in troubleshooting the infra at cloud platform level and handling deployment failures in pipeline.
+
+5. Experience in Docker and Kubernetes.
+
+6. Experience in Source Control Management (GIT) along with branching and merging strategies.
+
+7. Excellent interpersonal and stakeholder management skills.
+
+8. Good to have experience in anyone scripting (Python, JS, Go etc).
+
+9. Good to have knowledge about SecOps principles.  
