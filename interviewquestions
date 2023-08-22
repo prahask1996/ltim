@@ -1,0 +1,276 @@
+################################################ INTERVIEW QUESTIONS ######################################################
+
+ 
+
+ 
+
+1) What is Git-Rebase?
+
+Ans)  The process of combining a sequence of commits to a new base commit.
+
+ 
+
+2) What is Git-Cherrypick?
+
+Ans) The process of moving/copying one of the commit to another branch within the same repo.
+
+ 
+
+3) Diff b/w Git Pull & Git Fetch ?
+
+Ans)  Fetch -  Git Fetch is something which fetches the latest changes from the remote repository,
+	however will not reflect on target branch. It will be stored on separate branch.
+
+ 
+
+     Pull - It will fetch and pull the latest changes on target branch
+
+ 
+
+4) What is HotFix?
+
+Ans) It is created off directly from master/main branch. To resolve the reported issue after product is live.
+
+ 
+
+5) What is Git Stash?
+
+Ans) Stash is a temporary workspace where a developer can save their intermediate work and 
+	can resume whenever they need.
+
+ 
+
+6) What is the Kubernetes Architecture?
+
+Ans)  Kubernetes has two components which is master and worker.
+
+ 
+
+Master Node : Api Server - It is resposible for orchestration within the cluster.
+
+              ETCD       - It is like a database for the entire cluster, stores all the information.
+
+              Schedular  - It helps to schedule which pod needs to run on which node
+
+              Controller - It controls things the node controller, replication controller
+
+Worker Node : Kubelet - It receieves the input from Api Server and runs the application/container
+
+              Kubeproxy - It enables the communication b/w the services/pods.
+
+ 
+
+7) Types of services in Kubernetes?
+
+Ans) We have around four types of services
+
+     a) Cluster IP - Exposes a service which is accessible within the cluster itself( Internal).
+
+     b) Nodeport - Exposes a services via static port on each Node IP's ( Internal clients)
+
+     c) LoadBalancer - Exposes a services via cloud provider loadbalancer IP address( External clients)
+
+     d) Ingress  - Exposes service to external client with only one LB IP address( External clients)
+
+ 
+
+8) What is the difference b/w Configmaps & Secrets ?
+
+Ans) Configmaps : It is designed to store any type of non-sensitive application data.
+
+     Secrets  : It is designed to store sensitive application data like passwords, token etc.( Base64 )
+
+ 
+
+9) What is configs?
+
+Ans) It is a file which holds the cluster authentication information.
+
+ 
+
+10) What is difference b/w Deployment & Service in kubernetes?
+
+Ans) Deployment is responsible for keeping a set of pods running.
+
+     Service is responsible for enabling network access to the pods.
+
+ 
+
+11) What is the difference b/w pod and container?
+
+Ans) There is no difference both referes to a service/application,however a container resides inside the pod.
+
+ 
+
+12) How do you debug an issue in kubernetes? Like crashloop, imagepull back errors etc.
+
+Ans) kubectl describe podname which helps to find where is the exact issue and from there we can work on resolving.
+
+ 
+
+13) What are liveness and readiness probe?
+
+Ans) These are used to control the health of the pod. 
+
+     If a liveness probe fails the container will restart. 
+
+     If a readiness probe fails will stop our application from serving traffic.
+
+ 
+
+14) We have a wordpress live application running on ubuntu and we need to upgrade the wordpress version of that 
+	particular wordpress which is in live, how can you acheive it?
+
+Ans) We can acheive it by taking a backup of that current instance AMI and launch a new instance and 
+	modify the DNS with new instance IP so the end user might not effected and 
+	work on upgrades on old machine, and after that point the IP as per earlier
+
+ 
+
+15) why do we need to create artifact instead of deploying the code/copying the code?
+
+Ans) To specify software package versions for deployment
+
+ 
+
+16) We have three vpc a,b,c. Each one is in peering mode like vpc A is in peering with B and B is in 
+	peering with C. Can the VPC A communicate with VPC C in this scenario?
+
+Ans) Yes, it can be done by using VPC B as middleware
+	no we cannot
+
+ 
+
+17) How can we schedule a pod on particular node?
+
+Ans) Schedular is something which is helpful in this case. It helps to schedule particular pod on desired Node. 
+	By using nodeselector in yaml we will be able to schedule a pod on node
+
+ 
+
+18) What is the diff b/w label and selector?
+
+Ans) Label and selector are used to specific which service should reach which deployment
+
+ 
+
+19) Pod is in pending status how to debug it?
+
+Ans) 1. we will need to describe the pod and check the log.
+
+     2. Next we need to check if the node has sufficient space to run the pod.
+
+ 
+
+20) What is PV and PVC in kubernetes?
+
+Ans) PV is a resource object in kubernetes cluster. Though the pods destroyed which has this PV. 
+	The PV will not get destroyed. PVC is something which is essential to request to mount a PV
+
+ 
+
+21) What is taints and tolerations in kubernetes?
+
+Ans)  Taints allow a node to repel a set of pods. Tolerations are applied to pods.
+	Tolerations allow the scheduler to schedule pods with matching taints.
+
+ 
+
+22) What is a Sidecar Container?
+
+Ans) A sidecar is a separate container that runs alongside an application container in a Kubernetes pod. 
+	Example: istio container.
+
+ 
+
+23) What is INIT container?
+
+Ans) It contain utilities or custom code for setup that is not present in an app image. 
+	The actual pod will not spin up until the init container task is success.
+
+ 
+
+24) Difference b/w Encoding & Encryption?
+
+Ans) Encoding is for maintaining data usability and can be reversed by employing the same algorithm 
+	that encoded the content, i.e. no key is used.
+
+     Encryption is for maintaining data confidentiality and requires the use of a key (kept secret) 
+	in order to return to plaintext.
+
+ 
+
+25) What is Canary Deployment model?
+
+Ans) Progressive rollout of an application that splits traffic between an already deployed version and 
+	a new version, rolling it out to a subset of users before rolling it out fully
+
+ 
+
+26) What is blue-green deployment model?
+
+Ans) blue-green model is something which is useful where we have deployed version1 in the current release on 
+	blue deployment. when we create new version like v2 we will deploy it in green env and 
+	if it stable we will route the traffic to the green box/cluster.
+
+ 
+
+27) What is rolling update model?
+
+Ans) The rolling deployment is the default deployment strategy in Kubernetes. 
+	It replaces pods, one by one, of the previous version of our application with pods of the 
+	new version without any cluster downtime.
+
+ 
+
+28) Different types of deployment strategies in Kubernetes?
+
+Ans) Canary, blue-green, rolling updates, recreate.
+
+ 
+
+29) Where do you store credentials in Jenkins? 
+
+Ans)  Jenkins → Manage Credentials → Jenkins Credentials → System → Global credentials.
+
+ 
+
+30) Where do you store configuration files in Jenkins?
+
+Ans) We have a plugin which is configs. Where we can store the configuration/environment file under configs 
+	and can call these on pipeline.
+
+ 
+
+31) What are the quality gates you follow in Pipeline?
+
+Ans) We are using sonarqube for code quality, we follow major,minor,bug vunerability.
+	 Out of which we consider major should be cleared before proceeding deployment.
+
+ heart 1
+
+
+| 20XX-Present
+
+Design, deploy, and maintain highly available, scalable, and secure cloud infrastructure using AWS and Azure.
+Create and manage Kubernetes clusters and related components, including network setup, persistent storage, and security.
+Develop and maintain CI/CD pipelines using Jenkins, CircleCI, and TravisCI for multiple projects, ensuring efficient, reliable, and automated delivery of software.
+Design and implement automation workflows using Ansible, Puppet, and Chef for infrastructure provisioning, configuration management, and application deployment.
+Implement monitoring and logging solutions using Nagios, Zabbix, and Grafana to ensure high availability and performance of infrastructure and applications.
+Provide guidance and support to development teams on best practices for DevOps, CI/CD, containerization, and cloud infrastructure.
+DevOps Engineer | ABC Inc. | Anytown, USA | 20XX-20XX
+
+Designed and implemented highly available infrastructure on both AWS and Azure, including virtual networks, load balancers, and auto-scaling groups.
+Automated deployment processes using Puppet, reducing downtime and increasing reliability.
+Worked with development teams to implement continuous integration, testing, and deployment of applications.
+Monitored and maintained infrastructure using Nagios and Zabbix, proactively addressing issues and improving system performance.
+Day-to-Day Activities:
+
+Collaborate with development teams on software design, architecture, and deployment strategies.
+Configure and manage cloud infrastructure using AWS and Azure services such as EC2, S3, RDS, and VPCs.
+Design and deploy Kubernetes clusters, using tools such as kops, kubeadm, and Rancher.
+Develop and maintain CI/CD pipelines using Jenkins, CircleCI, and TravisCI, integrating with tools such as Git, Artifactory, and SonarQube.
+Write and maintain automation scripts using Ansible, Puppet, and Chef for infrastructure provisioning and application deployment.
+Configure and maintain monitoring and logging solutions using Nagios, Zabbix, and Grafana.
+Provide support and troubleshooting for infrastructure and application issues.
+Continuously research and evaluate new technologies and tools to improve DevOps processes and infrastructure
